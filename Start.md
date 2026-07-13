@@ -21,5 +21,5 @@
 7. Watched a couple of videos to get my bearings and create some containers than ran out of time to keep messing with it... this was In May I beleive
 
 ======================================
-Here we are again in July 2026!!!
+- Here we are again in July 2026!!!
 ======================================
