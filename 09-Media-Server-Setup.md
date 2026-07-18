@@ -81,3 +81,15 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 
+# Now I wanna run Docker without using sudo every time
+- Resource: [TechHut - Managing Docker as a non-root user](https://techhut.tv/7-docker-basics-for-beginners)
+## What I am doing here:
+- To avoid having to use sudo every time I am working with docker I am adding my user on this server to the docker group - ***NOTE: This does give high-level privilages so have to be careful once I begin using it***
+Commands:
+```bash
+sudo usermod -aG docker $USER
+newgrp docker
+```
+
+
+
